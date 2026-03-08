@@ -1,2 +1,51 @@
 # ECG-EDA-ACC
 ASSIST COGNITIVE SYSTEM(ECG-EDA-ACC monitoring system).
+
+
+ASSIST Physiological Monitoring Dashboard
+Installation Guide
+
+1. Install Python
+
+Download Python 3.10 or higher from:
+https://www.python.org/downloads/
+
+During installation enable:
+✔ Add Python to PATH
+
+2. Clone the repository
+
+git clone https://github.com/<client-repo>/assist-physio-dashboard.git
+
+3. Navigate to the project folder
+
+cd assist-physio-dashboard
+
+4. Install required packages
+
+pip install -r requirements.txt
+
+5. Run the dashboard
+
+python AssistSystem.py
+
+6. Data storage
+
+All recorded physiological data will automatically be stored as CSV files inside:
+
+/data
+
+Example output file:
+
+ASSIST_20260308_154512.csv
+
+7. Dashboard Features
+
+• BLE device scanning
+• UART communication via Nordic BLE service
+• Real-time ECG visualization
+• Real-time EDA visualization
+• Accelerometer X/Y/Z visualization
+• EDA bandpass signal filtering
+• CSV data recording
+• Live console monitoring
