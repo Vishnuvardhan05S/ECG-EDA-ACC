@@ -15,11 +15,11 @@ During installation enable:
 
 2. Clone the repository
 
-git clone https://github.com/<client-repo>/assist-physio-dashboard.git
+git clone https://github.com/Vishnuvardhan05S/ECG-EDA-ACC.
 
 3. Navigate to the project folder
 
-cd assist-physio-dashboard
+dashboard_wofilter.py
 
 4. Install required packages
 
