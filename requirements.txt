@@ -1,0 +1,7 @@
+Open Cmd Prompt and install 5 packages of python 3.12 to run this code.
+
+pip install bleak.
+pip install pyqt5.
+pip install pyqtgraph.
+pip install scipy.
+pip install numpy.
